@@ -5,7 +5,7 @@ using RobSharper.Ros.IntegROS;
 
 namespace TurtlementTests
 {
-    [RosbagScenario(BagFiles.MyRecordedBag)]
+    [RosbagScenario(BagFiles.ExampleBag)]
     public class IntegRosTest1 : ForScenario
     {
         [ExpectThat]
