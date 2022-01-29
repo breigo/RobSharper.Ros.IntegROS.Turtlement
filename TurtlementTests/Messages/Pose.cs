@@ -15,18 +15,18 @@ namespace TurtlementTests.Messages
         */
             
         [RosMessageField("float32", "x", 1)]
-        public float X { get; set; }
+        public float x { get; set; }
             
         [RosMessageField("float32", "y", 2)]
-        public float Y { get; set; }
+        public float y { get; set; }
             
         [RosMessageField("float32", "theta", 3)]
         public float Theta { get; set; }
             
         [RosMessageField("float32", "linear_velocity", 4)]
-        public float LinearVelocity { get; set; }
+        public float linear_velocity { get; set; }
             
         [RosMessageField("float32", "angular_velocity", 5)]
-        public float AngularVelocity { get; set; }
+        public float angular_velocity { get; set; }
     }
 }

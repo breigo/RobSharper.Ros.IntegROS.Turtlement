@@ -26,7 +26,7 @@ namespace TurtlementTests
                 .Messages
                 .InTopic("/turtle*/pose")
                 .WithMessageType<Messages.Pose>()
-                .Select(message => message.Value.X)
+                .Select(message => message.Value.x)
                 .Should()
                 .BeInAscendingOrder();
         }
