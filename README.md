@@ -1,12 +1,20 @@
 # RobSharper.Ros.IntegROS.Turtlement
 Testing playground for writing ROS integration tests with IntegROS.Net
 
+This repository contains IntegROS.Net test project stubs that help you to get familiar with testing in IntegROS.NET.
 
 Welcome to the robotic swimming turtlement. 
 In this tournament, robotic turtles swim races in a small lake. 
 As for all competitive sports events, rules also apply for the turtlement. 
-They are described in the next section.
+They are described later on this page.
 
+## What you will need
+
+* .Net 6 SDK
+* IDE for .Net, like
+    * Visual Studio Code (with C# extension)
+    * Microsoft Visual Studio
+    * JetBrains Rider
 
 ## Turtlement rules
 
