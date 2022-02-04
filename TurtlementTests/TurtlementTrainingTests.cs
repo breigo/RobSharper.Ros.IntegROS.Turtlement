@@ -116,39 +116,5 @@ namespace TurtlementTests
         {
             throw new NotImplementedException();
         }
-
-        /*
-         * Task5
-         * Verify, that the FINAL_WHISTLE command is blown after the turtle crossed the finish line.
-         * 
-         * Hints for implementation:
-         *  - Filter
-         *      - Final whistle command message.
-         *      - First Pose messages from /turtle1/pose where x value is after final line (10f).
-         *  - Verify
-         *      - Compare timestamps of the two messages
-         */
-        [ExpectThat(Skip = "Not implemented")]
-        public void Final_whistle_is_blown_after_turtle_crosses_the_finish_line()
-        {
-            throw new NotImplementedException();
-        }
-
-        /*
-         * Task6
-         * Verify, that the turtle crosses the finish line only once in the race.
-         * 
-         * Hints for implementation:
-         *  - Filter
-         *      - First Pose messages in topic /turtle1/pose where x value is after final line (>10f) is the first crossing of the final line.
-         *      - Pose messages in topic /turtle1/pose after first crossing of the line.
-         *  - Verify
-         *      - X value of poses after crossing the final line must not be before the final line (<10f).
-         */
-        [ExpectThat(Skip = "Not implemented")]
-        public void Turtle_crosses_finish_line_only_once()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
