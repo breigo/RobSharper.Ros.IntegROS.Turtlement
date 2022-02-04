@@ -60,7 +60,7 @@ namespace TurtlementTests
 
         /*
          * Task 2
-         * Verify that the turtle is inside the lane barriers during the race.
+         * Verify that the turtle is inside the barriers of lane 1 during the race.
          * During the race means from the time, the referee issues the GET_SET command until the FINAL_WHISTLE is blown.
          *
          * Hints for implementation:
