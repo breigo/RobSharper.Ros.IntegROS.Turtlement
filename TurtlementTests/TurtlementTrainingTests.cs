@@ -74,14 +74,13 @@ namespace TurtlementTests
         [ExpectThat(Skip = "Not implemented")]
         public void Turtle_is_in_its_lane_anytime_during_the_race()
         {
-
             throw new NotImplementedException();
         }
 
 
         /*
          * Task 3
-         * Verify, that the turtle is inside the start area between the commands GET_SET and GO.
+         * Verify that the turtle is inside the start area between the commands GET_SET and GO.
          * 
          * Hints for implementation:
          *  - Filter
@@ -99,7 +98,7 @@ namespace TurtlementTests
 
         /*
          * Task4
-         * Verify, that the turtle doesn't jump the gun.
+         * Verify that the turtle doesn't jump the gun.
          * The turtle is not allowed to move shortly before the GO command.
          * 
          * Hints for implementation:
