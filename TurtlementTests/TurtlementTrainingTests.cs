@@ -52,7 +52,7 @@ namespace TurtlementTests
          *  - Verify
          *      - Check order of values
          */
-        [ExpectThat]
+        [ExpectThat(Skip = "Not implemented")]
         public void Race_commands_are_issued_in_the_correct_order()
         {
             throw new NotImplementedException();
@@ -71,7 +71,7 @@ namespace TurtlementTests
          *  - Verify
          *      - Check if the resulting messages only contain poses with y value between 0 and 3
          */
-        [ExpectThat]
+        [ExpectThat(Skip = "Not implemented")]
         public void Turtle_is_in_its_lane_anytime_during_the_race()
         {
 
@@ -91,7 +91,7 @@ namespace TurtlementTests
          *  - Verify
          *      - Check if the resulting messages only contain poses with y value between 0 and 3
          */
-        [ExpectThat]
+        [ExpectThat(Skip = "Not implemented")]
         public void Turtle_is_in_start_area_between_get_set_and_go()
         {
             throw new NotImplementedException();
@@ -111,7 +111,7 @@ namespace TurtlementTests
          *      - linear_velocity == 0
          *      - angular_velocity == 0
          */
-        [ExpectThat]
+        [ExpectThat(Skip = "Not implemented")]
         public void Turtle_does_not_jump_the_gun()
         {
             throw new NotImplementedException();
@@ -128,7 +128,7 @@ namespace TurtlementTests
          *  - Verify
          *      - Compare timestamps of the two messages
          */
-        [ExpectThat]
+        [ExpectThat(Skip = "Not implemented")]
         public void Final_whistle_is_blown_after_turtle_crosses_the_finish_line()
         {
             throw new NotImplementedException();
@@ -145,7 +145,7 @@ namespace TurtlementTests
          *  - Verify
          *      - X value of poses after crossing the final line must not be before the final line (<10f).
          */
-        [ExpectThat]
+        [ExpectThat(Skip = "Not implemented")]
         public void Turtle_crosses_finish_line_only_once()
         {
             throw new NotImplementedException();

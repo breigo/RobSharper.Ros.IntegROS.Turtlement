@@ -7,7 +7,7 @@ using TurtlementTests.Messages;
 namespace TurtlementTests
 {
     /// <summary>
-    /// In the example scenario (ExapleBag) a turtle is moving
+    /// In the example scenario (ExampleBag) a turtle is moving
     /// from the left to the right side of the turtlesim simulator.
     /// </summary>
     [RosbagScenario(BagFiles.ExampleBag)]
