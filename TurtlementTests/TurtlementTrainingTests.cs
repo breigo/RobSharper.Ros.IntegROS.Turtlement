@@ -97,7 +97,7 @@ namespace TurtlementTests
         }
 
         /*
-         * Task4
+         * Task 4
          * Verify that the turtle doesn't jump the gun.
          * The turtle is not allowed to move shortly before the GO command.
          * 
