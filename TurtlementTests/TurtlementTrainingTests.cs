@@ -6,8 +6,8 @@ using TurtlementTests.Messages;
 
 namespace TurtlementTests
 {
-    [RosbagScenario((BagFiles.One_turtle_one_lap))]
-    [RosbagScenario((BagFiles.One_turtle_three_laps))]
+    [RosbagScenario(BagFiles.One_turtle_one_lap, DisplayName = "1 lap training")]
+    [RosbagScenario(BagFiles.One_turtle_three_laps, DisplayName = "3 laps training")]
     public class TurtlementTrainingTests : ForScenario
     {
         #region Helpers
