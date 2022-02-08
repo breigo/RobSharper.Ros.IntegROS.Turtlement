@@ -53,7 +53,7 @@ namespace TurtlementTests
          *      - Check order of values
          */
         [ExpectThat(Skip = "Not implemented")]
-        public void Race_commands_are_issued_in_the_correct_order()
+        public void Task1_Race_commands_are_issued_in_the_correct_order()
         {
             throw new NotImplementedException();
         }
@@ -72,32 +72,13 @@ namespace TurtlementTests
          *      - Check if the resulting messages only contain poses with y value between 0 and 3
          */
         [ExpectThat(Skip = "Not implemented")]
-        public void Turtle_is_in_its_lane_anytime_during_the_race()
+        public void Task2_Turtle_is_in_its_lane_anytime_during_the_race()
         {
             throw new NotImplementedException();
         }
-
 
         /*
          * Task 3
-         * Verify that the turtle is inside the start area between the commands GET_SET and GO.
-         * 
-         * Hints for implementation:
-         *  - Filter
-         *      - Pose messages in topic /turtle1/pose
-         *      - After GET_SET command message and
-         *      - Before GO command message
-         *  - Verify
-         *      - Check if the resulting messages only contain poses with y value between 0 and 3
-         */
-        [ExpectThat(Skip = "Not implemented")]
-        public void Turtle_is_in_start_area_between_get_set_and_go()
-        {
-            throw new NotImplementedException();
-        }
-
-        /*
-         * Task 4
          * Verify that the turtle doesn't jump the gun.
          * The turtle is not allowed to move shortly before the GO command.
          * 
@@ -111,7 +92,7 @@ namespace TurtlementTests
          *      - angular_velocity == 0
          */
         [ExpectThat(Skip = "Not implemented")]
-        public void Turtle_does_not_jump_the_gun()
+        public void Task3_Turtle_does_not_jump_the_gun()
         {
             throw new NotImplementedException();
         }
