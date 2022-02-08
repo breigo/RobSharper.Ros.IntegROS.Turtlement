@@ -34,9 +34,11 @@ namespace TurtlementTests
         [ExpectThat]
         public void Turtle_always_moves_forwards()
         {
-            Scenario
+            var poseMessages = Scenario
                 .Messages
-                .InTopic<Pose>("/turtle1/pose")
+                .InTopic<Pose>("/turtle1/pose");
+                
+            poseMessages
                 .Should()
                 .BeInAscendingOrder(message => message.Value.x);
         }
